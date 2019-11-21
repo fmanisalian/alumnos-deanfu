@@ -30,9 +30,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api', require('./routes/alumno'));
 
 // Rutas
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
+//app.get('/', function (req, res) {
+//  res.send('Hello World!');
+//});
 
 // Middleware para Vue.js router modo history
 const history = require('connect-history-api-fallback');
